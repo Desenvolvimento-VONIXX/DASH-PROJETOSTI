@@ -7,6 +7,11 @@ export const statusList = [
     { value: "CANCELADO", text: "Cancelado" },
     { value: "TESTE", text: "Teste" },
     { value: "DESENV", text: "Desenvolvimento" },
+    { value: "APROVDEV", text: "Aprovação - Dev" },
+    { value: "FILADEV", text: "Fila - Dev" },
+    { value: "APROVSOL", text: "Aprovação - Solicitante" },
+
+
 ]
 
 export const statusColors: Record<string, string> = {
@@ -17,7 +22,10 @@ export const statusColors: Record<string, string> = {
     "Revisão": "text-gray-700 bg-gray-100",
     "Cancelado": "text-red-700 bg-red-100",
     "Em teste": "text-purple-700 bg-purple-100",
-    "Desenvolvimento": "text-white bg-gray-800"
+    "Desenvolvimento": "text-white bg-gray-800",
+    "Aprovação - Dev": "text-indigo-800 bg-indigo-200",
+    "Fila - Dev": "text-amber-800 bg-amber-200",
+    "Aprovação - Solicitante": "text-slate-800 bg-slate-200", 
 };
 
 export const priodidadeList = [
